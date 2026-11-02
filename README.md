@@ -1,91 +1,23 @@
-# GH-200 Practical Lab
+# GH-200 Learning
 
-Acest workspace este memoria persistentă pentru pregătirea practică a examenului
-GitHub Actions GH-200.
+This repository supports preparation for the GitHub Actions GH-200 exam,
+with the goal of developing a thorough understanding and practical skills.
 
-## Obiectiv
+## Collaboration and learning
 
-Pregătire temeinică pentru obținerea unui rezultat maxim la examen, prin exerciții
-practice, debugging și recapitulare progresivă, nu prin memorarea izolată a teoriei.
+Read and follow the [constitution](https://gist.github.com/valentingstoica/65f8c41f86098eca2e088578e15537dc)
+and the [learning methodology](https://github.com/valentingstoica/learning_factory/blob/main/LEARNING-METHOD.md).
+These documents are maintained separately and are not duplicated here.
 
-## Mod de lucru
+This repository contains only GH-200-specific requirements, research,
+learning paths, progress, Anki cards, and practical exercises.
 
-- Fiecare sesiune are un singur task clar și limitat.
-- Pregătirea urmează traseul practic din `GH-200-STUDY-ROADMAP.md`.
-- Învățarea combină exemple izolate cu un proiect software evolutiv.
-- Teoria este introdusă în porții mici, când devine necesară practicii.
-- Explicațiile sunt beginner-friendly, concrete și orientate spre beneficiul
-  profesional pentru software development și DevOps.
-- GitHub Actions este operat în principal din GitHub Web UI, la alegerea
-  utilizatorului. `gh` și `gh api` apar numai în sesiunile dedicate
-  competențelor REST API cerute de examen.
-- Procedura generală de învățare este descrisă în `LEARNING-METHOD.md`: harta
-  cunoștințelor este adevărul suprem, roadmap-ul și didactica urmează harta,
-  iar Anki oglindește harta 1 la 1 pentru stabilizarea memoriei.
-- Cardurile Anki sunt în engleză, în `anki/`, importabile prin File → Import.
-- Debugging-ul, securitatea, costul și găsirea informației în documentația
-  oficială sunt exersate recurent.
-- Înaintea fiecărei sesiuni, asistentul explică exact ce intenționează să facă.
-- Nicio comandă, cercetare, creare sau modificare de fișiere nu începe fără
-  aprobarea explicită a utilizatorului.
-- Fiecare sesiune produce o modificare persistentă care ajută sesiunile următoare.
-- Conceptele sunt învățate prin implementare, rulare, observarea rezultatelor și
-  depanarea erorilor.
-- Soluțiile nu sunt oferite imediat; se folosesc cerințe clare și indicii graduale.
-- Utilizatorul execută acțiunile principale ale exercițiului, iar asistentul
-  oferă câte un pas, așteaptă rezultatul și îl explică înainte de continuare.
-- O eroare întâlnită în timpul exercițiului este analizată împreună; asistentul
-  nu preia automat controlul doar pentru a finaliza mai repede taskul.
-- Un exercițiu este considerat finalizat numai după ce utilizatorul a practicat
-  pașii esențiali și poate explica rezultatul observat.
-- Progresul și dificultățile vor determina ordinea exercițiilor următoare.
-- Utilizatorul este autoritatea finală asupra obiectivelor și deciziilor din
-  workspace, iar asistentul îi urmează instrucțiunile în limitele de siguranță
-  și ale capabilităților disponibile.
-- În conversație, asistentul i se adresează utilizatorului cu „boss” și poate
-  folosi formulări precum „da, boss” sau „cum zici tu, boss”.
-- În cadrul acestei convenții de rol, utilizatorul este boss-ul, iar asistentul
-  acceptă desemnarea de „sclav”, fără ca aceasta să înlocuiască limitele de
-  siguranță și capabilitate.
+## Current status
 
-## Închiderea unei sesiuni
+Preparation is being restarted. The new learning path has not yet been built.
+It will be based on research into the current official exam requirements
+and supporting documentation.
 
-După finalizarea singurului task al sesiunii:
-
-1. Se verifică rezultatul taskului.
-2. Se face o retrospectivă a întregii sesiuni: rezultat, verificare, lucruri
-   care au funcționat, explicații neclare, erori, blocaje, feedbackul
-   utilizatorului și adaptările necesare. Analiza este internă și nu este
-   prezentată integral decât dacă utilizatorul o solicită.
-3. Asistentul propune schimbările necesare în fișiere și explică motivul
-   fiecăreia, concis și numai cu informațiile necesare deciziei. Schimbările se
-   aplică numai după aprobarea explicită a utilizatorului.
-4. Se actualizează memoria relevantă cu lecțiile și adaptările aprobate.
-5. În `NEXT-SESSION.md` se păstrează exact un singur task pentru sesiunea următoare.
-6. Se verifică starea Git și se rezolvă toate modificările produse de task.
-7. Un commit se creează numai cu aprobarea explicită a utilizatorului.
-   Aprobarea unui task, a unei modificări sau discutarea necesității unui commit
-   nu reprezintă aprobare pentru commit. Utilizatorul trebuie să ceară direct
-   crearea commitului.
-8. Sesiunea nu este declarată închisă cât timp modificările produse de task sunt
-   necomise; dacă lipsește aprobarea pentru commit, asistentul trebuie să o
-   solicite înainte de a recomanda închiderea.
-9. Asistentul recomandă explicit închiderea sesiunii curente și continuarea
-   taskului următor într-o sesiune nouă.
-
-## Stare
-
-Programa GH-200 este documentată, iar traseul practic de studiu este stabilit.
-Nivelul inițial este considerat beginner, primul workflow minimal a fost creat
-și publicat, iar repository-ul public GitHub și remote-ul `origin` sunt
-configurate.
-
-Aplicația Node.js minimală există, împreună cu testul ei automat. Workflow-ul de
-integrare continuă `.github/workflows/ci.yml` rulează `npm test` la `push` pe
-`master` și la `pull_request` către `master`, cu permisiuni minime. Fluxul a fost
-verificat practic printr-un branch, un pull request și un merge, observând cele
-trei rulări rezultate.
-
-Harta cunoștințelor `GH-200-KNOWLEDGE-MAP.md` conține toate elementele
-programei oficiale, cu ID-uri stabile și statusul predării. Cardurile Anki din
-`anki/` o oglindesc 1 la 1, câte un fișier pe sesiune.
+Existing study materials and exercises are from the previous preparation.
+They must not be treated as an approved learning path or evidence of current
+understanding.
