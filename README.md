@@ -14,10 +14,21 @@ learning paths, progress, Anki cards, and practical exercises.
 
 ## Current status
 
-Preparation is being restarted. The new learning path has not yet been built.
-It will be based on research into the current official exam requirements
-and supporting documentation.
-
-Existing study materials and exercises are from the previous preparation.
-They must not be treated as an approved learning path or evidence of current
+The repository cleanup is complete. Previous study documents, Anki card files,
+and practical exercises have been removed from the working tree; they remain
+available in Git history. Previous progress is not evidence of current
 understanding.
+
+The current official exam requirements have not yet been reverified, and the
+new learning path has not yet been built.
+
+## Next session task
+
+Verify and document the current official GH-200 exam requirements.
+
+Completion criterion: an English document records the current exam objectives,
+their official source links, and the verification date.
+
+Scope: research and document the requirements only. Do not build the learning
+path or begin lessons in this session. Present this task for approval before
+starting.
